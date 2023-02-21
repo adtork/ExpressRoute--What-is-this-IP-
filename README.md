@@ -13,5 +13,5 @@ So we can see from SpokeVM, it has learned GCP VPC of 192.168.0.0/24 and it also
 ![image](https://user-images.githubusercontent.com/55964102/219828289-2c522540-25d8-48dc-97b9-274ebe051c53.png)
 
 # Conclusion
-We can conclude that this IP is normal and part of the ExpressRoute provision process. In a future date, we are looking to add this to our public documenation to avoid confusion and alarm. 
+We can conclude that this IP is normal and part of the ExpressRoute provision process. In a future date, we are looking to add this to our public docs to avoid confusion and alarm. 
 
