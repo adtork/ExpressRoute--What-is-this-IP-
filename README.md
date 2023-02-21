@@ -1,7 +1,7 @@
-# ExpressRoute--What-is-this-IP?
+# ExpressRoute--What-is-this NextHop-IP?
 
 # Intro
-Many users have provisoned an expressRoute circuit, dumped the affective routes of a VM in a VNET attached to ExR, and seen this mysterious IP as next hop, so what is it? This IP is perfectly normal even though its not in any subnet or network you provisoned, so what is this address? That IP is the address of the Azure MSEE, the physical IP. Normally you would see two, one for the primary MSEE and one for the secondary MSEE if you have both primary and secondary VRFs up for the circuit. In this simple lab for illustration purposes, I only provisoned the primary path, so one MSEE on my circuit.
+Many users have provisoned an expressRoute circuit, dumped the affective routes of a VM in a VNET attached to the circuit, and seen this mysterious IP as next hop! So what is this IP address? This IP is perfectly normal even though it's not in any subnet or network you provisoned, so what is this address? This is the IP address of the Azure MSEE, the physical IP. Normally you would see two, one for the primary MSEE and one for the secondary MSEE if you have both primary and secondary VRFs up for the circuit. In this simple lab for illustration purposes, I only provisoned the primary path, so one MSEE on my circuit.
 
 # Simple Topolgy
 ![image](https://user-images.githubusercontent.com/55964102/219828123-95a06026-9ce7-4f31-abe9-0bda0a52024c.png)
